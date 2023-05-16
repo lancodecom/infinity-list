@@ -1,0 +1,43 @@
+{
+  "name": "@lancodecom/infinity-list",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/infinity-list.umd.js",
+  "module": "./dist/infinity-list.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/infinity-list.umd.js",
+      "import": "./dist/infinity-list.es.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "@lancodecom/infinity-list": "^1.0.0",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@senojs/rollup-plugin-style-inject": "^0.2.3",
+    "@types/uuid": "^9.0.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  },
+  "keywords": [
+    "vue3",
+    "infinity-list",
+    "list",
+    "vitrual-list"
+  ],
+  "license": "MIT",
+  "author": "Lancode <yiruiwen@lancode.com>",
+  "homepage": "https://www.lancode.cn"
+}
