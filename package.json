@@ -39,5 +39,9 @@
   ],
   "license": "MIT",
   "author": "Lancode <yiruiwen@lancode.com>",
-  "homepage": "https://www.lancode.cn"
+  "homepage": "https://www.lancode.cn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancodecom/infinity-list"
+  }
 }
